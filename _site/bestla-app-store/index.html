@@ -22,7 +22,7 @@
 		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Bestla" />
 
 		<link rel="stylesheet" href="/css/screen.css">
-		<link rel="icon" type="image/png" href="/favicon.png">
+		<link rel="icon" type="image/png" href="/favicon.ico">
 
 		
 	</head>
@@ -92,7 +92,7 @@ function getMobileOperatingSystem() {
 function DetectAndServe(){
     let os = getMobileOperatingSystem();
     if (os == "Android") {
-        window.location.href = "https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=com.appuccino.bestla"; 
+        window.location.href = "https://play.google.com/store/apps/details?id=com.appuccino.bestla"; 
     } else if (os == "iOS") {
         window.location.href = "https://apps.apple.com/us/app/bestla-tesla-companion/id1551088174";
     } else {
