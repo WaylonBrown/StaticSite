@@ -1,3 +1,9 @@
+# Instructions
+
+Run locally with `bundle exec jekyll serve`.
+
+Push to update the site.
+
 # Hydra
 
 Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
